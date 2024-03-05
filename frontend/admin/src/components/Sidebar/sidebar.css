@@ -1,0 +1,47 @@
+.dashboard-sidebar{
+    position: fixed;
+    left: 0;
+    height: 92vh;
+    overflow: hidden;
+    width: 15%;
+    background-color: #353434;
+}
+.dashboard-sidebar ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    height: 100%;
+    /* width: 100%; */
+    
+}
+.dashboard-sidebar li{
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.current{
+    background-color: rgb(14, 14, 14);
+}
+.dashboard-sidebar button{
+    /* width: fit-content; */
+    padding: 10px 0px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+.dashboard-sidebar p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+}
+.username-absolute{
+    border-top: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

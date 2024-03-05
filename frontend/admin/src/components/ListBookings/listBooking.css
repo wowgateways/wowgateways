@@ -1,0 +1,169 @@
+    .admin-panel-wrapper {
+        display: flex;
+        position: relative;
+    }
+    
+    .dashboard-main-add-homestay {
+        flex-grow: 1;
+        position: relative;
+        padding: 20px;
+        
+    }
+
+   
+    
+    .list-product {
+        margin-top: 10px;
+        
+    }
+    
+    .all-booking-list{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        
+    }
+    .manage-homestay-header div{
+        display: flex;
+        background-color:  white;
+        
+    }
+    .manage-customer-header{
+        background-color: white;
+    }
+    .manage-homestay-header h5{
+        margin-left: 10px;
+    }
+    .manage-customer-header h5{
+        margin-left: 20px;
+        padding: 20px 0;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            font-weight: 600 !important;
+        
+    }
+    .manage-customer-header div input{
+        margin-right: 10px;
+        padding: 0 20px;
+        outline: 0;
+    }
+    .list-product h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .list-product-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .list-product-table th,
+    .list-product-table td {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+        
+    }
+    
+    .list-product-table th {
+        background-color: #f4282862;
+    }
+    
+    .list-product-table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .list-product-update-item,
+    .list-product-delete-item {
+        padding: 5px 10px;
+        cursor: pointer;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 3px;
+    }
+    
+    .list-product-update-item:hover,
+    .list-product-delete-item:hover {
+        background-color: #0056b3;
+    }
+    
+
+
+
+
+    tbody button{
+        background-color: blue;
+        padding: 5px 10px;
+        color: white;
+        border: 0;
+        outline: 0;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 5px;
+    }
+
+
+
+
+
+
+
+
+
+.list-booking {
+    padding: 0  0px;
+    width: 100%;
+    height: 82vh;
+    overflow: auto;
+}
+
+.admin-booking-list-container{
+        /* position: relative; */
+        width: 85%;
+        margin-left: 15vw;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .pagination li a {
+    color: #333;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .pagination li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  

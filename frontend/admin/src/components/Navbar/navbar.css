@@ -1,0 +1,52 @@
+.header-wrapper{
+    background-color: #353434;
+    height: 8vh;
+}
+
+header{
+    padding: 10px 0;
+    margin: auto;
+    width: 90%;
+    position: relative;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 125px;
+}
+.header-desc {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.admin-logo{
+    font-size: 25px;
+    cursor: pointer;
+    height: fit-content;
+    padding: 0;
+}
+.logout-hover{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    padding: 30px; 
+    margin-top: 10px;
+    width: 170px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 7px;
+}
+
+.logout-hover button{
+    padding: 5px 20px ;
+    background-color: #ee2e29; 
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
